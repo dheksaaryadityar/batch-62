@@ -1,0 +1,129 @@
+.body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e5e7eb;
+}
+
+.logo img {
+  height: 50px;
+  margin-left: 70px;
+  margin-right: 50px;
+}
+
+.menu {
+  background: white;
+  list-style: none;
+  /* padding: 10px 30px; */
+  /* align-items: center; */
+  display: flex;
+  gap: 50px;
+  font-weight: 600;
+}
+
+.contact-me {
+  text-decoration: none;
+  margin-right:30px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.contact-me:active{
+  background-color: #0f172a;
+  opacity: 60%;
+  transition: opacity 0.3s;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 50px auto;
+  background: white;
+  display: flex;
+  gap: 30px;
+  padding: 50px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.content {
+  flex: 2;
+}
+
+.content h1 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.content p {
+  text-align: justify;
+  margin-bottom: 20px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.btn-primary {
+  background: #1f2937;
+  font-size: large;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.download-cv {
+  text-decoration: none;
+  font-size: medium;
+  color: black;
+  font-weight: 500;
+  gap: 5px;
+}
+
+.social-icons {
+  margin-top: 25px;
+  display: flex;
+  gap: 20px;
+}
+
+.social-icons a {
+  color: black;
+  margin-top: 20px;
+  margin-left: 5px;
+  font-size: 30px;
+}
+
+.profile {
+  margin-left: 40px;
+  flex: 1;
+  text-align: center;
+}
+
+.profile-info {
+  padding: 15px;
+  margin: auto 0 5px;
+  font-size: 22px;
+  font-weight: 750;
+  border-radius: 5px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.profile img, h1 {
+  font-size: 20px;
+  font-weight: 750;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.profile p {
+  font-size: 17px;
+  color: #000000;
+  font-weight: 500;
+}

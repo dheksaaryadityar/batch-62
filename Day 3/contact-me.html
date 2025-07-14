@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me</title>
+  <!-- <link rel="stylesheet" href="style.css" /> -->
+  <link rel="stylesheet" href="style2.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap">
+    <link rel="stylesheet" href="https://www.flaticon.com/free-icon/linkedin-logo_61109?related_id=61109">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <!-- <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="logo" href="#"><img src="Logo.png" alt="Dumbways.id Logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="menu">
+            <a class="nav-link active" aria-current="page" href="task-day2.html">Home</a>
+          </li>
+          <li class="menu">
+            <a class="nav-link active" href="my-project.html">My Project</a>
+          </li>
+        </ul>
+          <a class="contact-me" href="contact-me.html">
+          <button class="contact-me" type="submit">Contact Me</button></a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="form-container">
+    <h1>GET IN TOUCH</h1>
+    <form>
+        <label for="name" class="form-label">Name</label>
+        <input type="text" class="form-control" id="name" required>
+
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" required>
+
+        <label for="phone" class="form-label">Phone Number</label>
+        <input type="tel" class="form-control" id="phoneNumber" required>
+
+        <label for="subject" class="form-label">Subject</label>
+        <select id="subject" class="form-control custom-select" required>
+          <option hidden value=""></option>
+          <option value="comment">Komentar</option>
+          <option value="critic">Kritik</option>
+          <option value="feedback">Saran</option>
+      </select>
+
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" rows="5"></textarea>
+
+        <button id="submit" type="submit" class="submit" onclick="getData(event)">Submit</button>
+    </form>
+  </div>
+
+  <script src="contact.js"></script>
+
+</body>
+</html>

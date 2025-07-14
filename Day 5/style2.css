@@ -1,0 +1,88 @@
+.body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e5e7eb;
+}
+
+.logo img {
+  height: 50px;
+  margin-left: 70px;
+  margin-right: 50px;
+}
+
+.menu {
+  background-color: white;
+  list-style: none;
+  /* padding: 10px 30px; */
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  font-weight: 600;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #d1d5db;
+  margin: 0;
+  padding: 0;
+}
+
+.form-container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: #d1d5db;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+button {
+  background-color: #111827;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  display: block;
+  margin: 50px 0 50px 0 ;
+}
+
+.contact-me {
+  text-decoration: none;
+  margin-right:30px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.submit {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 420px;
+  border-radius: 50px;
+  font-weight: 500;
+}
+
